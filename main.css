@@ -1,0 +1,41 @@
+button {
+  background-color: lightblue
+}
+
+body {
+  background-image: radial-gradient(white, lightblue, orange, fuchsia);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+  margin-bottom: 350px;
+}
+
+h1 {
+font-style: oblique;
+font-family: fantasy;
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+}
+
+.inputSection {
+  margin: 20px 0px 20px 0px;
+  width: 180px;
+}
+
+.inputs {
+  width: inherit;
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  margin-top: 10px;
+}
+
+.addOption {
+  margin-top: 10px;
+}
